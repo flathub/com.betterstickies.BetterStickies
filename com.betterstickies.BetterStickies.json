@@ -12,11 +12,7 @@
     "--device=dri",
     "--socket=pulseaudio",
     "--talk-name=org.kde.StatusNotifierWatcher",
-    "--talk-name=org.kde.KWin",
-    "--filesystem=xdg-desktop:ro",
-    "--filesystem=xdg-documents:ro",
-    "--filesystem=xdg-download:ro",
-    "--filesystem=xdg-pictures:ro"
+    "--talk-name=org.kde.KWin"
   ],
   "modules": [
     {
@@ -34,8 +30,8 @@
         {
           "type": "archive",
           "only-arches": ["x86_64"],
-          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.0/BetterStickies_1.5.0-x86_64.tar.gz",
-          "sha256": "7cecd79f94b4a6c32fb4c9900c04ce7f73276c012cfa20452f01b3a84f9c3557",
+          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.1/BetterStickies_1.5.1-x86_64.tar.gz",
+          "sha256": "5407f40bdee1b12a63596e55932ed43a33a5bfffe7458053fd6d89fbd059088e",
           "dest": "betterstickies",
           "strip-components": 0,
           "x-checker-data": {
@@ -48,8 +44,8 @@
         {
           "type": "archive",
           "only-arches": ["aarch64"],
-          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.0/BetterStickies_1.5.0-aarch64.tar.gz",
-          "sha256": "e04b0fade14f694a7f1f00421ac7a3aa4ad3631261e481a67b3bba6a27ece4d0",
+          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.1/BetterStickies_1.5.1-aarch64.tar.gz",
+          "sha256": "72443de903fb63bfa730657197bf734df2049af624ee82bc026b19164f184be9",
           "dest": "betterstickies",
           "strip-components": 0,
           "x-checker-data": {
