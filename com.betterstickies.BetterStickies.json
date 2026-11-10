@@ -29,9 +29,11 @@
       "sources": [
         {
           "type": "archive",
-          "only-arches": ["x86_64"],
-          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.1/BetterStickies_1.5.1-x86_64.tar.gz",
-          "sha256": "5407f40bdee1b12a63596e55932ed43a33a5bfffe7458053fd6d89fbd059088e",
+          "only-arches": [
+            "x86_64"
+          ],
+          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.6.0/BetterStickies_1.6.0-x86_64.tar.gz",
+          "sha256": "515405746bc04945a6781db5d34c6aad51edbcbfd5f11b6f2df59a344bc52f18",
           "dest": "betterstickies",
           "strip-components": 0,
           "x-checker-data": {
@@ -43,9 +45,11 @@
         },
         {
           "type": "archive",
-          "only-arches": ["aarch64"],
-          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.5.1/BetterStickies_1.5.1-aarch64.tar.gz",
-          "sha256": "72443de903fb63bfa730657197bf734df2049af624ee82bc026b19164f184be9",
+          "only-arches": [
+            "aarch64"
+          ],
+          "url": "https://github.com/HimaSphere/BetterStickies/releases/download/v1.6.0/BetterStickies_1.6.0-aarch64.tar.gz",
+          "sha256": "6b9fb9b8c591d1125ce06f72b003f31b618582eb47280e8c781d973be3a499f5",
           "dest": "betterstickies",
           "strip-components": 0,
           "x-checker-data": {
